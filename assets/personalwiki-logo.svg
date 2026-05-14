@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">PersonalWiki logo</title>
+  <desc id="desc">A monochrome globe-style personal wiki mark.</desc>
+  <rect width="96" height="96" fill="#fff"/>
+  <circle cx="48" cy="48" r="36" fill="#f8f9fa" stroke="#202122" stroke-width="2.5"/>
+  <path d="M18 48h60M48 12c9 9 13.5 21 13.5 36S57 75 48 84M48 12C39 21 34.5 33 34.5 48S39 75 48 84M24 31c7 4 15 6 24 6s17-2 24-6M24 65c7-4 15-6 24-6s17 2 24 6" fill="none" stroke="#72777d" stroke-width="1.8"/>
+  <path d="M28 33h10l8 24 8-24h8l8 24 8-24h8L74 67H64l-7-21-7 21h-8L34 46l-6 21H18z" fill="#202122"/>
+</svg>
