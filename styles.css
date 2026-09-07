@@ -536,6 +536,15 @@ input {
   width: min(205px, 34%);
 }
 
+.article-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-bottom: 1px solid var(--border-soft);
+  background: #fff;
+  object-fit: cover;
+}
+
 .placeholder-art {
   position: relative;
   min-height: 142px;
