@@ -539,10 +539,25 @@ input {
 .article-photo {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: auto;
   border-bottom: 1px solid var(--border-soft);
   background: #fff;
-  object-fit: cover;
+}
+
+.media-link {
+  display: block;
+  color: inherit;
+  line-height: 0;
+}
+
+.media-link:hover,
+.media-link:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: -2px;
+}
+
+.media-link .article-photo {
+  cursor: zoom-in;
 }
 
 .placeholder-art {
