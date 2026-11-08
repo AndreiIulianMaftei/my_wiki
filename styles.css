@@ -464,7 +464,7 @@ input {
 }
 
 .article-section {
-  clear: both;
+  display: flow-root;
 }
 
 .article-section,
