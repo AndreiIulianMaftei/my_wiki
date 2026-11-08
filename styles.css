@@ -541,6 +541,19 @@ input {
   min-height: 150px;
 }
 
+.smlr-gallery {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  align-items: start;
+}
+
+.article-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 860 / 314;
+  background: #202122;
+}
+
 .role-line {
   color: var(--muted);
   font-size: 13px;
