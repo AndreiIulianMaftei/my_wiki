@@ -86,7 +86,13 @@
             <li><a href="#research-and-professional-experience"><span>2 Research and professional experience</span></a></li>
             <li><a href="#tum-cit-chair"><span>2.1 TUM CIT Chair</span></a></li>
             <li><a href="#industry-appointments"><span>2.2 Industry appointments</span></a></li>
+            <li><a href="#optiver-career-kickstarter"><span>2.3 Optiver Career Kickstarter</span></a></li>
             <li><a href="#leadership-and-applied-work"><span>3 Leadership and applied work</span></a></li>
+            <li><a href="#multi-agv"><span>3.1 Cooperative multi-AGV systems</span></a></li>
+            <li><a href="#nahalm"><span>3.2 NahaLM</span></a></li>
+            <li><a href="#muniquant-and-robotum"><span>3.3 Muniquant</span></a></li>
+            <li><a href="#robotum"><span>3.4 RoboTUM</span></a></li>
+            <li><a href="#byteforce"><span>3.5 ByteForce</span></a></li>
             <li><a href="#recognition"><span>4 Recognition</span></a></li>
             <li><a href="#skills"><span>5 Skills</span></a></li>
           </ol>
@@ -146,7 +152,7 @@
                 </tr>
                 <tr>
                   <th scope="row">Primary stack</th>
-                  <td>C++ (CUDA), Python, Java, Kotlin, SQL, PyTorch, Docker</td>
+                  <td>Go, C++ (CUDA), Python, Java, Kotlin, SQL, PyTorch, Docker</td>
                 </tr>
                 <tr>
                   <th scope="row">Languages</th>
@@ -174,7 +180,10 @@
             Since 2024, he has been a research assistant at TUM's CIT Chair, contributing to graph
             visualization and the NeoFOAM scientific-computing project. His work combines a
             researcher’s interest in rigorous methods with hands-on systems engineering, from
-            real-time robotic localization to AI-assisted enterprise applications.
+            real-time robotic localization to AI-assisted enterprise applications. At Avelios Medical,
+            he develops backend services for clinical workflows. His project work also includes
+            cooperative multi-robot navigation with reinforcement learning and language models for
+            cybersecurity.
           </p>
 
           <section class="article-section" id="education" data-collapsible-section>
@@ -262,15 +271,29 @@
                   <a class="media-link" href="assets/avelios%20ss.jpeg" target="_blank" rel="noopener" aria-label="Open full-size Avelios interface image"><img class="article-photo" src="assets/avelios%20ss.jpeg" alt="Avelios hospital information system interface"></a>
                   <figcaption>Avelios’ modular, data-driven hospital information system.</figcaption>
                 </figure>
-                <h4>Avelios Medical</h4>
+                <h4>Avelios Medical <span class="date-range">August 2026–present</span></h4>
                 <p class="role-line">Working Student, Software Engineering Backend · Munich, Germany</p>
                 <p>
                   He contributes to deployment and service synchronization for Docker-based
-                  microservices supporting clinical workflows. His work includes mappings between
-                  hospital source data and application models, PostgreSQL and Elasticsearch-backed
-                  retrieval, and Java microservices communicating through gRPC for nursing and
-                  patient-care features.
+                  microservices supporting clinical workflows. He also created an internal tool used
+                  by more than 20 solution engineers and product managers, extending his work from
+                  backend infrastructure to tools used across product and implementation teams.
                 </p>
+                <p>
+                  He implements mappings between hospital source data and application data models,
+                  using PostgreSQL and Elasticsearch for storage and retrieval. His Java microservices
+                  communicate through gRPC to support nursing and patient-care workflow features.
+                </p>
+                <div class="image-gallery" aria-label="Image spaces for Avelios engineering work">
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-service"><span>Image space</span></div>
+                    <figcaption>Internal engineering tool: a shareable interface view or demonstration.</figcaption>
+                  </figure>
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-data"><span>Image space</span></div>
+                    <figcaption>Clinical data flow: an illustration of hospital-data mapping and service communication.</figcaption>
+                  </figure>
+                </div>
                 <figure class="article-figure align-left compact">
                   <a class="media-link" href="assets/mendix.png" target="_blank" rel="noopener" aria-label="Open full-size manufacturing workflow image"><img class="article-photo" src="assets/mendix.png" alt="Manufacturing workflow interface used in a Mendix prototype"></a>
                   <figcaption>Enterprise manufacturing interface used in a Mendix prototype.</figcaption>
@@ -284,6 +307,22 @@
                   systems including SAP and Salesforce.
                 </p>
               </section>
+              <section class="subsection" id="optiver-career-kickstarter">
+                <h3>Optiver Career Kickstarter <span class="date-range">November 2026</span></h3>
+                <p class="role-line">Selected participant, Software Engineering · Amsterdam, Netherlands</p>
+                <p>
+                  Maftei was selected as one of 30 students for the Software Engineering track of
+                  Optiver’s Career Kickstarter programme. This selection sits alongside his work on
+                  low-latency trading infrastructure at Muniquant and his second-place finish in the
+                  Optiver Campus Trading Challenge.
+                </p>
+                <div class="image-gallery" aria-label="Image space for Optiver Career Kickstarter">
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-trading"><span>Photo placeholder</span></div>
+                    <figcaption>Career Kickstarter, Amsterdam: space for a programme or group photograph.</figcaption>
+                  </figure>
+                </div>
+              </section>
             </div>
           </section>
 
@@ -293,6 +332,37 @@
               <button class="collapse-toggle" type="button" aria-expanded="true" aria-controls="leadership-and-applied-work-content">hide</button>
             </div>
             <div class="section-content" id="leadership-and-applied-work-content">
+              <section class="subsection" id="multi-agv">
+                <h3>Cooperative multi-AGV navigation and scheduling</h3>
+                <p class="role-line">Multi-agent reinforcement learning · Munich, Germany</p>
+                <p>
+                  Maftei developed a multi-agent reinforcement learning framework for cooperative
+                  navigation by automated guided vehicles (AGVs). Built with Python and NVIDIA Isaac
+                  Sim, the framework uses PPO and MAPPO and includes custom observation spaces,
+                  reward functions, and training pipelines.
+                </p>
+                <h4>Coordination in warehouse environments</h4>
+                <p>
+                  The project combines multi-robot coordination and task scheduling under partial
+                  observability. It supports collision avoidance and cooperative trolley transportation
+                  in dynamic warehouse environments, bringing navigation and shared transport tasks
+                  into the same learning framework.
+                </p>
+                <div class="image-gallery" aria-label="Image spaces for cooperative robot navigation">
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-robot"><span>Simulation image space</span></div>
+                    <figcaption>Isaac Sim warehouse: robots, trolley, and navigation environment.</figcaption>
+                  </figure>
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-motion"><span>Results image space</span></div>
+                    <figcaption>Coordination example: robot paths, collision avoidance, or a shared transport task.</figcaption>
+                  </figure>
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-data"><span>Training image space</span></div>
+                    <figcaption>PPO/MAPPO training: reward curves or a comparison of learned behaviours.</figcaption>
+                  </figure>
+                </div>
+              </section>
               <section class="subsection" id="nahalm">
                 <h3>NahaLM <span class="date-range">Cybersecurity research project</span></h3>
                 <figure class="article-figure align-right">
@@ -300,10 +370,10 @@
                   <figcaption>Security-model evaluation, team workshop, or presentation moment.</figcaption>
                 </figure>
                 <p>
-                  For NahaLM, Maftei trained an open-source language-model base on more than 100,000
+                  For NahaLM, Maftei adapted an open-source language model using more than 100,000
                   Common Vulnerabilities and Exposures (CVEs). Designed with resource-constrained small
-                  enterprises in mind, the system identifies vulnerabilities and generates defensive
-                  action plans in scenarios where earlier models did not produce useful guidance.
+                  enterprises in mind, the system identifies vulnerabilities and generates actionable
+                  remediation plans and defensive recommendations.
                 </p>
                 <figure class="article-figure align-left placeholder-photo compact">
                   <div class="placeholder-art placeholder-data"><span>Photo placeholder</span></div>
@@ -316,7 +386,8 @@
               </section>
 
               <section class="subsection" id="muniquant-and-robotum">
-                <h3>Muniquant and RoboTUM <span class="date-range">Student clubs · Munich, Germany</span></h3>
+                <h3>Muniquant <span class="date-range">Student club · Munich, Germany</span></h3>
+                <p class="role-line">Co-founder and low-level department lead</p>
                 <figure class="article-figure align-right placeholder-photo">
                   <div class="placeholder-art placeholder-trading"><span>Photo placeholder</span></div>
                   <figcaption>Low-level development session, trading infrastructure, or team photograph.</figcaption>
@@ -324,10 +395,20 @@
                 <p>
                   As Muniquant’s low-level department lead and a founder, he built a stable,
                   low-overhead C++ platform for market-trade execution. A reworked order-queue
-                  strategy improved measured code efficiency by 2000% over the original stack. He also
-                  helped grow the group to 15 active members, establish industry partnerships, and
-                  raise capital for server infrastructure and licensing.
+                  strategy produced a reported 2000% improvement in code latency compared with the
+                  previous stack. His technical work focused on trade execution and order processing,
+                  where reducing software overhead was a central design goal.
                 </p>
+                <p>
+                  He co-founded and scaled the organization to 15 active members, established industry
+                  partnerships, and helped secure funding for dedicated infrastructure and software
+                  licensing. The role combined systems programming with responsibility for the group’s
+                  technical resources and growth.
+                </p>
+              </section>
+              <section class="subsection" id="robotum">
+                <h3>RoboTUM <span class="date-range">Student club · Munich, Germany</span></h3>
+                <p class="role-line">Drone vision development</p>
                 <figure class="article-figure align-left placeholder-photo compact">
                   <div class="placeholder-art placeholder-drone"><span>Photo placeholder</span></div>
                   <figcaption>RoboTUM drone, vision pipeline, or autonomous-collection field test.</figcaption>
@@ -336,6 +417,12 @@
                   In RoboTUM’s drone-vision work, he developed a model that detected waste for
                   autonomous collection with 90% accuracy.
                 </p>
+                <div class="image-gallery" aria-label="Image space for RoboTUM vision results">
+                  <figure class="article-figure placeholder-photo">
+                    <div class="placeholder-art placeholder-data"><span>Detection image space</span></div>
+                    <figcaption>Example drone-camera frame with waste detections and model annotations.</figcaption>
+                  </figure>
+                </div>
               </section>
 
               <section class="subsection" id="byteforce">
@@ -389,7 +476,7 @@
                 <li>Winner, Swiss {ai} Weeks Zürich Hackathon, 2025.</li>
                 <li>Aci.dev distinction, {Tech: Europe} Karlsruhe Hackathon.</li>
                 <li>Second place, Optiver Campus Trading Challenge.</li>
-                <li>Bronze medals (twice), Romanian National Informatics Olympiad.</li>
+                <li>Gold Medal, Romanian National Informatics Olympiad.</li>
                 <li>Second place, Forgis Robotics Hackathon; over 100k raised with the high-school robotics team.</li>
               </ul>
               <figure class="article-figure align-left compact">
@@ -428,7 +515,7 @@
                 <tbody>
                   <tr>
                     <td>Languages</td>
-                    <td>C++, Python, Java, Kotlin, SQL</td>
+                    <td>Go, C++ (CUDA), Python, Java, Kotlin, SQL</td>
                     <td>
                       NeoFOAM C++ contributions, Java healthcare microservices, robotics control systems,
                       and C++ trading infrastructure.
@@ -436,15 +523,15 @@
                   </tr>
                   <tr>
                     <td>AI and machine learning</td>
-                    <td>PyTorch, computer vision, OpenCV, agentic AI, RAG, vector databases</td>
+                    <td>PyTorch, PPO/MAPPO, multi-agent reinforcement learning, computer vision, OpenCV, agentic AI, RAG, vector databases</td>
                     <td>
                       NahaLM cybersecurity model, Siemens generative-AI prototypes, RoboTUM drone
-                      vision model, and HPC Driving AI study.
+                      vision model, cooperative multi-AGV training, and HPC Driving AI study.
                     </td>
                   </tr>
                   <tr>
                     <td>Systems and robotics</td>
-                    <td>Real-time systems, sensor fusion, EKF, PID, state machines, ARM, Linux</td>
+                    <td>NVIDIA Isaac Sim, multi-robot coordination, real-time systems, sensor fusion, EKF, ARM, Linux</td>
                     <td>
                       ByteForce localization stack combining gyroscope, odometry, AprilTag tracking,
                       motion profiling, and rollback-based asynchronous sensor handling.
@@ -452,7 +539,7 @@
                   </tr>
                   <tr>
                     <td>Frameworks and tools</td>
-                    <td>Docker, FastAPI, Flask, Node.js, Pandas, Matplotlib, Git, Firebase, AWS</td>
+                    <td>Docker, gRPC, PostgreSQL, Elasticsearch, FastAPI, Node.js, Pandas, Matplotlib, Git, Firebase, Amazon SageMaker, Jupyter Notebooks</td>
                     <td>
                       Docker-based microservice deployment, enterprise data workflows, and advanced Git
                       practices in research and C++ project environments.
@@ -477,7 +564,7 @@
               This personal profile is not affiliated with Wikipedia or the Wikimedia Foundation.
               It uses an encyclopedia-inspired layout for a private portfolio page.
             </p>
-            <p>Last edited: September 7, 2026.</p>
+            <p>Last edited: November 8, 2026.</p>
           </footer>
         </article>
       </main>
